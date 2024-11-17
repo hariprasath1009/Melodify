@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melodify - Signup</title>
+
+    <!-- Linking icon -->
+    <link rel="icon" href="/HTML/Media/Images/icon.png">
+
+    <!-- Linking css file -->
+    <link rel="stylesheet" href="../CSS/Signup.css">
+
+    <!-- Link for icon permission from cdjnjs.com -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="container">
+            <h1 class="heading1"><i class="fa-solid fa-headphones micon"></i>MELODIFY</h1>
+            <label>
+                <input type="text" class="input-box" placeholder="First Name" id="fname">
+            </label>
+            <label>
+                <input type="text" class="input-box" placeholder="Last Name" id="lname">
+            </label>
+            <label>
+                <input type="number" class="input-box" placeholder="Mobile Number" id="mobileno">
+            </label>
+            <label>
+                <input type="email" class="input-box" placeholder="Mail Id" id="mail">
+            </label>
+            <label>
+                <input type="password" class="input-box" placeholder="Password" id="pass">
+            </label>
+            <label>
+                <input type="password" class="input-box" placeholder="Confirm Password" id="cpass">
+            </label>
+            <button class="btn" onclick="Validation()">Sign up</button>
+        </div>
+
+        <div class="footer-container">
+            <p>Have an account? <a href="../index.html">Log in</a></p>
+        </div>
+    </div>
+
+    <script src="../JS/signup.js"></script>
+</body>
+
+</html>

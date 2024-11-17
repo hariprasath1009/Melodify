@@ -1,0 +1,161 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.Images{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.micon{
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.underline{
+    width: 170px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-top: 4px solid #FCAB10; 
+}
+
+.middle{
+    display: flex;
+}
+
+.imgbox{
+    margin-right: 30px;
+}
+
+.generalbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.generalbox:hover{
+    transform: scale(1.04);
+    transition: 0.2s;
+    color:grey;
+    cursor: pointer;
+}
+
+.btn{
+    width:270px;
+    padding: 9px;
+    border-radius: 20px;
+    margin-top: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    background-color: #FCAB10;
+    color: white;
+    border: none;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.micon2{
+    margin-right: 5px;
+}
+
+.micon3{
+    margin-right: 10px;
+}
+
+.heading3{
+    margin-top: 10px;
+    width: fit-content;
+}
+
+/* Media query */
+
+@media screen and (max-width:580px){
+
+    .main-container{
+        margin-top: 40px;
+    }
+
+    .btn{
+        width:150px;
+        font-size: 12px;
+    }
+
+    .Images{
+        width: 150px;
+        height: 150px;
+    }
+
+    .heading1{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .heading3{
+        font-size: 14px;
+    }
+
+    .underline{
+        width: 140px;
+    }
+
+}
+
+@media screen and (max-width:340px){
+
+    .main-container{
+        margin-top: 40px;
+    }
+
+    .btn{
+        width:150px;
+        font-size: 10px;
+    }
+
+    .Images{
+        width: 80px;
+        height: 80px;
+    }
+
+    .heading1{
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .heading3{
+        font-size: 10px;
+    }
+
+    .underline{
+        width: 140px;
+    }
+
+}
+
+
+
+
